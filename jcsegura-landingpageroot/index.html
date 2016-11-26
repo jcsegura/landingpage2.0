@@ -1,0 +1,100 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.css" media="screen">
+    <link rel="stylesheet" href="css/normalize.css" media="screen">
+    <link rel="stylesheet" href="css/main.css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah" rel="stylesheet">
+    <link rel="icon" href="images/js.gif" type="image/gif" sizes="30x30">
+    <title>Juan's Landing Page</title>
+  </head>
+  <body>
+
+
+
+
+
+<ul class="sidenav">
+
+  <li><a href="p1assisgnment/index.html" target="_blank">Project 1</a></li>
+  <li><a href="p2assignment/parallax.html" target="_blank">Project 2</a></li>
+  <li><a href="animatedquotes/index.html" target="_blank">Animated Quotes</a></li>
+  <li><a href="personalportfolio/index.html" target="_blank">Personal Portfolio</a></li>
+  <li><a href="mailto:ju.ca.segura@gmail.com" "#sayhello">Say Hello</a></li>
+</ul>
+
+
+
+
+<!--Get Social Network-->
+
+<div class="social-wrapper">
+
+<div class="social-icon-wrapper">
+
+<div class="social-icon" style="opacity:0.35;"><a href="https://www.linkedin.com/in/juancsegura"><img src="images/linkedin.gif" alt="linkedin">
+</a>
+ </div>
+  </div>
+   </div>
+
+<!--  Social Wrapper  -->
+
+
+
+
+
+
+
+
+
+
+<section class="row">
+  <div class="small-12 large 12">
+   <h1>Juan's Landing Page</h1>
+   <img src="images/rothko.jpg" alt="place_maker"/>
+ </section>
+
+<br>
+<p>Juan is a San Francisco based designer</p>
+
+
+
+
+
+
+<section>
+      <!--Span was used to define "variable" name-->
+    <h2>Welcome visitor,<span id="greeting">hello!</span></h2>
+
+      <script type="text/javascript">
+      /* This line creates a date object for the browser and assigns it to the variable called new Date() */
+        var myDate = new Date();
+      /*The 'Object' is affected by the 'Method' (object.scream) the (.) tells where to pull from
+      -parameters for if the hour is before noon */
+        if ( myDate.getHours() < 12 )
+        {
+          document.getElementById('greeting').innerHTML = "Good morning!";
+        }
+        else
+        if ( myDate.getHours() >=12 && myDate.getHours() <=17 )
+        {
+          document.getElementById('greeting').innerHTML = "Good afternoon!";
+        }
+        else
+        if ( myDate.getHours() > 17 && myDate.getHours() <=24 )
+        {
+          document.getElementById('greeting').innerHTML = "Good evening!";
+        }
+        else {
+          document.getElementById('greeting').innerHTML = "Time to go!";
+        }
+      </script>
+    </section>
+
+  </body>
+</html>

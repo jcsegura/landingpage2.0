@@ -1,0 +1,262 @@
+body {
+  text-align: center;
+  background-color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size:18px;
+}
+
+/* Name  */
+h1 {
+  font: 40px 'PT mono', cursive;
+  color: #F7BC53;
+
+}
+
+/* Greeting Tag */
+h2 {
+  font: 40px 'PT mono', cursive;
+  color: #F7BC53;
+}
+
+/* My Image */
+img {
+  background-color: #F7F7F7;
+  width: 550px;
+  height: 500px;
+  border-radius: 100%;
+  box-shadow: 1px 6px 6px #e6e6e6;
+  margin-top: 0px;
+}
+
+/* "good morning" */
+#greeting {
+  color: #F7BC53;
+}
+
+
+/* navigation */
+
+ul.sidenav{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  width:12%;
+  background-color:#F7F7F7;
+  position:fixed;
+  height:100%;
+  overflow:auto;
+
+}
+
+
+ul.sidenav li {
+float:right right right right;
+display:inline-block;
+color:#f2f2f2;
+text-align:center;
+padding:13px 10px;
+text-decoration:none;
+font-size:15px;
+}
+ul.sidenav li a {
+  display:block;
+  color: #000;
+  padding: 5px 5px;
+  text-decoration:none;
+}
+ul.sidenav li a.activev{
+  background-color: #4CAF50;
+  color:white;
+}
+
+ul.sidenav li a:hover{
+  background-color:#555;
+  color:white;
+}
+
+
+/* get social */
+.social-wrapper {
+position:absolute;
+top:0px;
+right:0px;
+margin: 15px 10px;
+}
+
+
+.social-icon {
+background: #FCFCFC;
+float:right;
+text-align:center;
+margin-right:70px;
+cursor:pointer;
+opacity:0.35;
+}
+
+a {
+color:#171717;
+text-decoration:none;
+outline:0;
+}
+
+.social-icon img{
+display:inline-block;
+max-width:39px;
+height:auto;
+
+}
+
+
+/* end of getting social */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:640px) {
+  /* CSS code for small screens */
+  h1 {
+    font: 30px 'Architects Daughter', cursive;
+    color: #68D162;
+    margin: 8px;
+  }
+  h2 {
+    font: 25px 'Architects Daughter', cursive;
+    color: purple;
+    margin: 5px;
+  }
+  img {
+    background-color: white;
+    width: 420px;
+    height: 350px;
+    border-radius: 100%;
+    margin-top: 10px;
+  }
+
+
+
+  /* get social */
+  .social-wrapper {
+  position:absolute;
+  top:0px;
+  right:0px;
+  margin: 60px -20px;
+  }
+
+
+  .social-icon {
+  background: #FCFCFC;
+  float:right;
+  text-align:center;
+  margin-right:70px;
+  cursor:pointer;
+  opacity:0.35;
+  }
+
+  a {
+  color:#171717;
+  text-decoration:none;
+  outline:0;
+  }
+
+  .social-icon img{
+  display:inline-block;
+  max-width:39px;
+  height:auto;
+
+  }
+
+
+  /* end of getting social */
+
+
+}
+
+
+
+/* nav bar added is below */
+
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+
+
+
+      ul.sidenav {
+             width:100%;
+             height:auto;
+             position:relative;
+         }
+         ul.sidenav li a {
+             float: left;
+             padding: 2px;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width:641px) {
+  /* CSS code for larger screens */
+
+    /* "juan's landing page" */
+  h1 {
+    font: 50px 'Gloria Hallelujah', cursive;
+    color: #294F7A;
+    margin: 0px;
+  }
+
+  /* "welcome visitor" */
+  h2 {
+    font: 41px 'Gloria Hallelujah', cursive;
+    color: purple;
+    margin: 0px;
+  }
+
+  img {
+    background-color: white;
+    width: 460px;
+    height: 400px;
+    border-radius:100%;
+    margin-top: 5px;
+  }
+
+
+
+
+/* nav bar you added is below */
+
+  ul.sidenav {
+         width:100%;
+         height:auto;
+         position:relative;
+     }
+     ul.sidenav li a {
+         float: left;
+         padding: 15px;
+     }
+
+
+
+}
